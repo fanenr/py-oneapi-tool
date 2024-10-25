@@ -37,13 +37,14 @@ with ui.row().classes("w-full"):
         cursor.execute("SELECT id, name, base_url, key, response_time FROM channels;")
 
         for row in cursor.fetchall():
+            speed = f"{row[4] / 1000:.2f}s"
             table.add_row(
                 {
                     "id": row[0],
+                    "name": row[1],
                     "url": row[2],
                     "key": row[3],
-                    "name": row[1],
-                    "speed": row[4] / 1000,
+                    "speed": speed,
                 }
             )
 
