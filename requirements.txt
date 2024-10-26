@@ -23,7 +23,7 @@ Jinja2==3.1.4
 markdown2==2.5.1
 MarkupSafe==3.0.2
 multidict==6.1.0
-nicegui==2.4.0
+nicegui==2.5.0
 orjson==3.10.10
 propcache==0.2.0
 pscript==0.7.7
@@ -32,7 +32,7 @@ pydantic_core==2.23.4
 Pygments==2.18.0
 python-dotenv==1.0.1
 python-engineio==4.10.1
-python-multipart==0.0.14
+python-multipart==0.0.12
 python-socketio==5.11.4
 PyYAML==6.0.2
 requests==2.32.3
